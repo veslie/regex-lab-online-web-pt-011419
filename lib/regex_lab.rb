@@ -4,7 +4,7 @@ def starts_with_a_vowel?(word)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-text.match(/\A["un"]\z["ing"]/) 
+text.match(/\A["un"]\z["ing"]/) ? true : false 
 end
 
 def words_five_letters_long(text)
@@ -16,5 +16,5 @@ text.match(/\A[A-Z]\z\W\D/) ? true : false
 end
 
 def valid_phone_number?(phone)
-phone.scan(/\d0-9/) ? true  : false
+phone.match(/\d[0-9]/) ? true  : false
 end
