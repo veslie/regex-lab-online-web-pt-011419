@@ -9,7 +9,7 @@ text.match(/\A["un"]\z["ing"]/) ? true : false
 end
 
 def words_five_letters_long(text)
-text.scane(/w{5}\S/) ? true : false 
+text.scan(/w{5}\S/) ? true : false 
 end
 
 def first_word_capitalized_and_ends_with_punctuatio?(text)
