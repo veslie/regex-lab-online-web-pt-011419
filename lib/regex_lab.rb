@@ -13,7 +13,6 @@ text.scan(/w{5}\S/) ? true : false
 end
 
 def first_word_capitalized_and_ends_with_punctuatio?(text)
-  binding "pry"
 text.match(/\A[A-Z]\z\W\D) ? true : false 
 end
 
