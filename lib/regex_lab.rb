@@ -10,7 +10,7 @@ end
 
 def words_five_letters_long(text)
   binding.pry
-text.grep(/w{5}[a-zA-Z]/)  
+text.scane(/w{5}[a-zA-Z]/)  
 end
 
 def first_word_capitalized_and_ends_with_punctuatio?(text)
